@@ -75,3 +75,35 @@ header img {
     line-height: 1.8rem;
     color: var(--soft-orange)
 }
+
+.header__title-container .header__button {
+    /* Posicionamiento */
+    position: absolute;
+    left: calc(50% - 114.5px);
+    top: calc(100% - 24px);
+    /* Box Model*/
+    display: block;
+    padding: 12px 16px;
+    width: 229px;
+    height: 48px;
+    align-items: center;
+    background: var(--off-white);
+    /* Sombra */
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 4px;
+    /* Texto*/
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--warm-black);
+    text-decoration: none;
+}
+
+.header__button span {
+    display: inline-block;
+    background-image: url('./assets/icons/down-arrow.svg');
+    width: 12px;
+    height: 8px;
+    margin-left: 12px;
+}
