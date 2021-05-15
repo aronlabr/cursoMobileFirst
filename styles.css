@@ -58,3 +58,20 @@ header img {
     margin-top: 30px;
     align-self: center;
 }
+
+
+.header__title-container h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--just-white)
+}
+
+.header__title-container p {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--soft-orange)
+}
