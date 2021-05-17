@@ -6,6 +6,9 @@
 5. Otros --> reglas CSS y más
 */
 
+/* Figmo project
+https://www.figma.com/file/sMmlQaZldfDcLERYYWe6h4/Bata-Bit?node-id=44%3A593
+*/
 :root {
     /* Colores */
     --bitcoin-orange: #f7931a;
@@ -106,4 +109,26 @@ header img {
     width: 12px;
     height: 8px;
     margin-left: 12px;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background: var(--off-white);
+}
+
+.main-exchange-container {
+    height: auto;
+    width: 100%;
+    min-width: 320px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.main-exchange-container__title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
 }
