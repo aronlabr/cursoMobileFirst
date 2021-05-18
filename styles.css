@@ -242,3 +242,19 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* Estilos de Boton de actualizacion */
+
+.currency-table__date {
+    width: 180px;
+    height: 32px;
+    margin: 0 auto 15px;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 10px;
+}
+
+.currency-table__date p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
