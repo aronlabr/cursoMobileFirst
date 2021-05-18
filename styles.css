@@ -164,12 +164,13 @@ main {
     width: 70%;
     min-width: 235px;
     max-width: 500px;
-    height: 360px;
+    height: auto;
     margin: 0 auto 15px;
     font-family: "Inter", sans-serif;
 }
 
 .main-currency-table .currency-table__title {
+    margin-left: 12px;
     margin-bottom: 12px;
     font-weight: bold;
     font-size: 1.8rem;
@@ -181,7 +182,7 @@ main {
     width: 90%;
     min-width: 230px;
     max-width: 300px;
-    height: 250px;
+    height: 160px;
     margin: 0 auto;
 }
 
@@ -192,7 +193,7 @@ main {
 
 .currency-table__container td {
     width: 50%;
-    padding: 10px 12px;
+    padding: 0 12px;
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.9rem;
@@ -248,7 +249,7 @@ main {
 .currency-table__date {
     width: 180px;
     height: 32px;
-    margin: 0 auto 15px;
+    margin: 15px auto;
     padding: 8px;
     background-color: var(--soft-orange);
     border-radius: 10px;
@@ -257,4 +258,71 @@ main {
 .currency-table__date p {
     font-size: 1.2rem;
     line-height: 1.5rem;
+}
+
+
+/* Estilos a la Tabla Comisones*/
+.main-commission-table {
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: auto;
+    margin: 30px auto 15px;
+    font-family: "Inter", sans-serif;
+}
+
+.commission-table__title {
+    margin-bottom: 12px;
+    padding: 0 12px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);
+}
+
+.commission-table__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+.commission-table__container li {
+    background-color: var(--just-white);
+    list-style-type: none;
+}
+
+.commission-table__container .table-right li {
+    padding: 10px 12px;
+    /* Texto */
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #B5B0AC;
+}
+
+.commission-table__container .table-left li {
+    padding: 11px 12px;
+    /* Texto */
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #757575;
+}
+
+/* Estilos de Boton de actualizacion */
+.commission-table__date {
+    margin: 15px auto;
+    width: 180px;
+    padding: 8px;
+    background: var(--soft-blue);
+    border-radius: 8px;
+    /* Texto */
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--black);
 }
