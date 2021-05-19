@@ -448,3 +448,35 @@ main {
     margin: 0 auto;
     padding-top: 65px;
 }
+
+.main-plans-container {
+    width: 100%;
+    min-width: 320px;
+    max-width: 500px;
+    height: auto;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.plans__title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.plans__title h2{
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+
+.plans__title p {
+    padding-top: 24px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #757575;
+}
