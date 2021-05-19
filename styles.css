@@ -375,14 +375,14 @@ main {
 .product-detail__cards-container {
     width: 90%;
     height: auto;
-    margin: 15px auto;
+    margin: 30px auto;
 }
 
 .product-detail__card {
     width: 90%;
     min-width: 288px;
     max-width: 400px;
-    height: 150px;
+    min-height: 150px;
     margin: 15px auto;
     padding: 15px;
     background: var(--black);
