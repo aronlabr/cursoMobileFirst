@@ -71,6 +71,18 @@ que esto afecta al rendimiento de la pagina, debemos procurar solo traer la meno
 cantidad de fuentes y variantes posibles, asi mismo limitar la cantidad de tipos
 de fuente a 2.
 
+### Convenciones
+
+Al momento de añadir estilos a los elementos HTML se puede seguir como 
+referencia las seguientes convenciones para reducir el tiempo y tener un orden.
+1. Posicionamiento --> static, absolute, relative, fixed
+2. Modelo de caja (Box model) --> margin, border, padding, content
+3. Tipografía --> tipos, tamaños de fuente, etc
+4. Estilos visuales --> box-shadow, border-radius, gradient, etc
+5. Otros --> reglas CSS y más
+
+[Figma project](https://www.figma.com/file/sMmlQaZldfDcLERYYWe6h4/Bata-Bit?node-id=44%3A593)
+
 ### Reniciar estilos de Navegador
 Cada navegador tienes diferentes estilos por defecto para las etiquetas HTML lo que hace complicado el proceso de desarrollo, para eso como paso previo: 
 ```css
@@ -84,18 +96,6 @@ html {
     font-size: 62.5%; /* Pasar reducir el tamaño del rem = 10px */
 }
 ```
-
-### Convenciones
-
-Al momento de añadir estilos a los elementos HTML se puede seguir como 
-referencia las seguientes convenciones para reducir el tiempo y tener un orden.
-1. Posicionamiento --> static, absolute, relative, fixed
-2. Modelo de caja (Box model) --> margin, border, padding, content
-3. Tipografía --> tipos, tamaños de fuente, etc
-4. Estilos visuales --> box-shadow, border-radius, gradient, etc
-5. Otros --> reglas CSS y más
-
-[Figma project](https://www.figma.com/file/sMmlQaZldfDcLERYYWe6h4/Bata-Bit?node-id=44%3A593)
 
 ## Diseño Web
 ### Header
