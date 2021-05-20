@@ -165,7 +165,7 @@ main {
     min-width: 235px;
     max-width: 500px;
     height: auto;
-    margin: 0 auto 15px;
+    margin: 0 auto 20px;
     font-family: "Inter", sans-serif;
 }
 
@@ -176,6 +176,7 @@ main {
     font-size: 1.8rem;
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
+    text-align: center;
 }
 
 .currency-table__container {
@@ -267,7 +268,7 @@ main {
     min-width: 235px;
     max-width: 500px;
     height: auto;
-    margin: 30px auto 15px;
+    margin: 0 auto 20px;
     font-family: "Inter", sans-serif;
 }
 
@@ -278,6 +279,7 @@ main {
     font-size: 1.8rem;
     line-height: 2.3rem;
     color: var(--secondary-blue);
+    text-align: center;
 }
 
 .commission-table__container {
@@ -607,14 +609,6 @@ main {
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
-.plans-container__slider::-webkit-scrollbar {
-    background-color: var(--soft-orange);
-    height: 3px;
-}
-.plans-container__slider::-webkit-scrollbar-thumb {
-    background-color: var(--bitcoin-orange);
-}
-
 
 /* Estilos del Footer */
 
