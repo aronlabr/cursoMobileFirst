@@ -516,3 +516,34 @@ main {
     line-height: 1.5rem;
     color: var(--just-white);
 }
+
+.plans-container__card h3 {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin: 5px 0 8px;
+}
+
+.plan-card__price {
+    padding-bottom: 16px;
+    font-size: 5.2rem;
+    line-height: 6.3rem;
+}
+
+.plan-card__price span {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    vertical-align: 25px;
+}
+
+.plan-card__saves {
+    padding: 0 16px;
+    padding-bottom: 16px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+
+    color: #757575;
+}
+
