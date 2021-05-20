@@ -574,3 +574,22 @@ main {
     background-size: cover;
     vertical-align: text-bottom;
 }
+
+/* Otras Cartas */
+.card2 .plan-card__recomend {
+    background-color: #199cf6;
+}
+
+.card3 {
+    background-color: #1e1f1c;
+    color: var(--just-white);
+}
+
+.card3 .plan-card__recomend {
+    background-color: #bababa;
+}
+
+.card3 button {
+    color: var(--just-white);
+    background-color: var(--black);
+}
