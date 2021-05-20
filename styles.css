@@ -489,7 +489,7 @@ main {
     min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     padding: 20px 15px;
 
     background-color: var(--just-white);
