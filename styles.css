@@ -463,7 +463,7 @@ main {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
-    margin: 0 auto 50px;
+    margin: 0 auto 30px;
     text-align: center;
 }
 
@@ -489,12 +489,15 @@ main {
     min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 0 auto 50px;
+    margin: 30px auto;
     padding: 20px 15px;
 
     background-color: var(--just-white);
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border-radius: 8px;
+
+    /* Scroll */
+    scroll-snap-align: center;
 }
 
 .plan-card__recomend {
@@ -538,7 +541,8 @@ main {
 }
 
 .plan-card__saves {
-    padding: 0 16px;
+    width: 158px;
+    margin: 0 auto;
     padding-bottom: 16px;
     font-weight: 500;
     font-size: 1.2rem;
@@ -592,4 +596,21 @@ main {
 .card3 button {
     color: var(--just-white);
     background-color: var(--black);
+}
+
+/* Efecto de Scroll Horizontal */
+.plans-container__slider {
+    display: flex;
+    height: auto;
+    gap: 30px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.plans-container__slider::-webkit-scrollbar {
+    background-color: var(--soft-orange);
+    height: 3px;
+}
+.plans-container__slider::-webkit-scrollbar-thumb {
+    background-color: var(--bitcoin-orange);
 }
