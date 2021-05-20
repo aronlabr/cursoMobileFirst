@@ -547,3 +547,30 @@ main {
     color: #757575;
 }
 
+.plans-container__card button {
+    width: 150px;
+    height: 50px;
+    align-self: center;
+    align-items: center;
+
+    background: var(--just-white);
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+
+    cursor: pointer;
+}
+
+.plans-container__card button span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+    background-image: url('./assets/icons/orange-right-arrow.svg');
+    background-size: cover;
+    vertical-align: text-bottom;
+}
