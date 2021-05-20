@@ -614,3 +614,37 @@ main {
 .plans-container__slider::-webkit-scrollbar-thumb {
     background-color: var(--bitcoin-orange);
 }
+
+
+/* Estilos del Footer */
+
+footer {
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    height: 150px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--bitcoin-orange);
+}
+
+.footer--left ul {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+.footer--left li {
+    margin: 10px 0;
+}
+
+.footer--left a {
+    text-decoration: none;
+    color: var(--just-white);
+}
+
+.footer--right img {
+    width: 75px;
+    height: 75px;
+}
